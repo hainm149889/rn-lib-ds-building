@@ -1,8 +1,8 @@
 {
   "name": "rn-ds-building",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Design System for normal components",
-  "homepage": "https://github.com/hainm149889/rn-ds-building",
+  "homepage": "https://github.com/hainm149889/rn-lib-ds-building.git",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "author": "HaiNM <hainm149889@gmail.com>",
