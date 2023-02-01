@@ -13,7 +13,6 @@ export const isIphoneX = () => {
   return (
     Platform.OS === 'ios' &&
     !Platform.isPad &&
-    !Platform.isTVOS &&
     (dimension.height === 780 ||
       dimension.width === 780 ||
       dimension.height === 812 ||
@@ -52,7 +51,7 @@ export const ScreenUtils = {
     const W_HEIGHT = height > width ? height : width
     const W_WIDTH = height > width ? width : height
 
-    if (Platform.OS === 'ios' && !Platform.isPad && !Platform.isTVOS) {
+    if (Platform.OS === 'ios' && !Platform.isPad) {
       isIPhoneX =
         (W_WIDTH === X_WIDTH && W_HEIGHT === X_HEIGHT) ||
         (W_WIDTH === XSMAX_WIDTH && W_HEIGHT === XSMAX_HEIGHT)

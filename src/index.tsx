@@ -1,6 +1,6 @@
 import { NativeModules } from 'react-native'
 
-import { ButtonDS, Counter } from './components'
+import { ButtonDS, Counter, ModalBottomSheet } from './components'
 
-export { ButtonDS, Counter }
+export { ButtonDS, Counter, ModalBottomSheet }
 export default NativeModules.RNDSBuildingModule
